@@ -24,7 +24,7 @@ usage: main.py [-i PATH] [-m PATH] [-f JSONFILE]
 ## Example:
 
 ```bash
-python main.py -i ../../Dataset/fastpick/5/train/images/ -m ../../Dataset/fastpick/5/train/annotations/ -f ../../Dataset/fastpick/5/train/annotations/annotations.json
+python main.py -i ./images/ -m ./annotations/ -f ./annotations/annotations.json
 
 ```
 
