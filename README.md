@@ -1,4 +1,4 @@
-# Mask To COCO Json
+# Mask Image To COCO Json
 
 Converts annotation mask images to COCO json
 
@@ -18,6 +18,8 @@ usage: main.py [-i PATH] [-m PATH] [-f JSONFILE]
 -i rgb image folder path
 -m annotation mask images folder
 -f json output file name
+
+define mask image's class names, ids and respective colours in class_definition.json
 
 ```
 
